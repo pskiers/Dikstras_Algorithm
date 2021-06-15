@@ -74,7 +74,3 @@ def dikstra(graph):
                to_print += '  '
         to_print += '\n'
     return to_print
-
-
-gr = [[1,1,1,1,2,2],[1,0,4,1,2,2],[9,4,2,1,1,1],[9,9,6,4,1,1],[9,9,0,4,1,1],[9,9,1,1,1,1]]
-print(dikstra(gr))
